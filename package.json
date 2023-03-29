@@ -1,0 +1,39 @@
+{
+  "name": "jwt-auth",
+  "version": "1.0.0",
+  "description": "Learn JWT Authentication using Node.js and Express with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mark-DSouza/jwt-auth.git"
+  },
+  "keywords": [
+    "jwt",
+    "auth",
+    "node",
+    "express",
+    "typescript"
+  ],
+  "author": "Mark D'Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mark-DSouza/jwt-auth/issues"
+  },
+  "homepage": "https://github.com/Mark-DSouza/jwt-auth#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
